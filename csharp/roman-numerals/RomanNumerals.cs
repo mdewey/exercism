@@ -35,11 +35,11 @@ public static class RomanNumeralExtension
       {
         first = (value / 1000) * 1000;
       }
-      else if (value >= 100 && value < 1000)
+      else if (value >= 100)
       {
         first = (value / 100) * 100;
       }
-      else if (value >= 10 && value < 100)
+      else if (value >= 10)
       {
         first = (value / 10) * 10;
       }
